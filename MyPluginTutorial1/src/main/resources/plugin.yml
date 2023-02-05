@@ -1,0 +1,13 @@
+name: MyPluginTutorial1
+version: '${project.version}'
+main: com.github.happyrogelio7.myplugintutorial1.MyPluginTutorial1
+api-version: 1.16
+authors: [ HappyRogelio7 ]
+description: My Plugin Tutorial 1
+website: https://github.com/HappyRogelio7
+commands:
+
+  myplugintutorial1:
+    description: My Plugin Tutorial 1
+    usage: /<command>
+    aliases: [ mpt1, mp ]
